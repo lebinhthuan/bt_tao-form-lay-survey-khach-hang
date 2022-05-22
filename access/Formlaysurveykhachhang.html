@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Dang ky</title>
+    <link rel="stylesheet" href="FormDK.css">
+</head>
+<body>
+<form method="post"> 
+        <label for="name">Họ và tên</label><br>
+        <input type="text" name="name"><br>
+<hr>
+        <label for="bdate">Ngày tháng năm sinh</label><br>
+        <input type="date" name="bdate"><br>
+<hr>
+        <label for="email">Địa chỉ Email</label><br>
+        <input type="text" name="email"><br>
+<hr>  
+        <p>Giới tính</p>     
+        <input type="radio" name="gender" value="Nam">
+        <label for="nam">Nam</label>         
+        <input type="radio" name="gender" value="Nu">
+        <label for="Nu">Nữ</label><br>
+        
+<hr>
+        <label for="phone">Số điện thoại</label><br>
+        <input type="number" name="phone"><br>
+<hr>
+        <label for="ndate">Ngày đăng ký</label><br>
+        <input type="date" name="ndate"><br>
+<hr>
+        <label for="que quan">Quê quán</label><br>
+        <select name="quequan" size="1">
+        <option value="HN">Hà Nội</option>
+        <option value="TN">Thái Nguyên</option>
+        <option value="HCM">TP.HCM</option>
+        <option value="HP">Hải Phòng</option>
+        </select>
+<hr>
+        <label for="trinhdo">Trình độ</label><br>
+        <select name="trinhdo" size="1">
+        <option value="DH">Đại học</option>
+        <option value="CD">Cao Đẳng</option>
+        <option value="TC">Trung Cấp</option>
+        <option value="PT">Phổ Thông</option>
+        </select>
+<hr>
+        <input type="submit" name="send" value="Đăng ký"/><br>
+
+<hr>
+</form>
+<form method="get" action="https://www.google.com.vn/search"> 
+    <input type="text" name="q"/>
+    <input type="submit" value="Tìm kiếm bằng Google"/>
+</form>
+     
+</body>
+</html>
